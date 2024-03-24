@@ -1,0 +1,48 @@
+#e:hover{
+    background: #54f362;
+border-radius: 2px;
+    box-shadow: 0px 0px 5px #2bf367,
+     0px 0px 40px #2bf367,
+     0px 0px 60px #2bf367,     0px 0px 80px #2bf367,     0px 0px 100px #2bf367
+
+
+}
+
+#e:active{
+    background: #7d8fad;
+   
+}
+
+.apple{
+   color: rgb(41, 136, 41);
+   font-weight: 900;
+   font-size: 40px;
+   padding-left:60px;
+}
+
+.icon-bar{
+   
+    background-color: rgb(255, 255, 255);
+}
+
+#e{
+    font-weight: 900;
+    margin-right: 30px;
+    color: rgb(216, 183, 183);
+    
+}
+
+#df{
+    background-color: rgb(148, 255, 86);
+    margin-top: 60px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 30px;
+    
+   
+}
+
+.tt{
+    background-color: #070707;
+}

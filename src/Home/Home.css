@@ -1,0 +1,252 @@
+*{
+  font-family:Arial, Helvetica, sans-serif; 
+
+}
+
+  /*ENTRANCE FRUITS */      
+.bgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#ds{
+  object-fit: cover;
+    height: 530px;
+    width: 100%;
+ 
+}
+
+.rdcontainer{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  
+}
+
+.wlc{
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow:  0px 0px 5px #0fc42d,
+  0px 0px 30px   #0fc42d,
+  0px 0px 120px   #151616;
+  color: black;
+}
+
+#title{
+  font-size: 30px;
+  text-shadow:  0px 0px 5px #0fc42d,
+  0px 0px 30px   #0fc42d,
+  0px 0px 120px   #151616;
+  color: black;
+}
+
+#re{
+  border-radius: 32px 149px ;
+  box-shadow: inset   0px 0px 10px   #06bd52;
+
+}
+
+#re:hover{
+  background-color: rgb(7, 7, 7);
+  border-radius:  149px 32px;
+  transition: all 4s;
+  color: #e9fcfc;
+}
+  /*ENTRANCE FRUITS END */      
+
+  /* icons*/ 
+  .rdd{
+    margin-top: 100px;
+  }
+
+  #fgf{
+ border-radius: 70px;
+  }
+  /* icons end*/ 
+
+/* vagitables*/
+#fgff{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#fgfff{
+  width: 100%;
+  height: 265px;
+  
+}
+.cvc{
+  margin-top: 100px;
+
+}
+.pop{
+  margin-top: 20px;
+}
+
+.df{
+  color: #0fc42d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fd{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+.fdg{
+  color: white;
+  background-color: rgb(52, 122, 24);
+  border-radius: 50px;
+  letter-spacing: 0.1em;
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size: 15px;
+  font-weight: 900;
+}
+/* vagitables end*/
+
+/*  Featured Products*/
+.ddd{
+  margin-top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.ddd h3{
+  color: #1f9e54;
+}
+
+.ddd h1{
+ font-size: 45px;
+ color: #151616;
+}
+
+.ddd p{
+font-size: 15px;
+ }
+/*  Featured Products end*/
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  gap: 4.5rem;
+}
+
+.articles article {
+  max-width: 30rem;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: rgba(7, 7, 7, 0.2) 0px 7px 29px 0px;
+}
+
+.articles article:hover{
+  box-shadow: rgba(7, 7, 7, 0.2) 0px 7px 29px 20px;
+}
+
+.articles article h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+  color: var(--text);
+  transition: color 0.3s ease-out;
+}
+
+
+.articles article img {
+  max-width: 100%;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.articles article:hover img {
+  transform: scale(1.1);
+}
+
+.article-preview {
+  padding: 1.5rem;
+  background: white;
+}
+
+.articles figure {
+  width: 100%;
+  height: 14rem;
+  overflow: hidden;
+}
+/*  Featured Products end*/
+
+/* Testimony*/
+.Testimony{
+  margin-top: 60px;
+}
+
+.Testimony h5{
+  margin-left: 60px;
+  margin-right: 60px;
+  line-height: 30px;
+
+}
+
+.Testimony h2{
+  color: #1a8b49;
+}
+.Testimony h1{
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.got{
+  margin-top: 60px;
+}
+.got img{
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+}
+
+.got p{
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.got h6{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.got h5{
+  margin-bottom: 40px;
+}
+
+.thumbnail{
+  box-shadow: rgba(7, 7, 7, 0.2) 0px 7px 29px 10px;
+
+}
+.thumbnail:hover{
+  box-shadow: rgba(7, 7, 7, 0.2) 0px 7px 29px 50px;
+
+}
+
+/* Testimony end*/
