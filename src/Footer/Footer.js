@@ -10,8 +10,8 @@ const Footer =()=>{
     return(<div>
 
 
-<section class="subscription-section">
-            <div class="subscription-wrapper">
+<section className="subscription-section">
+            <div className="subscription-wrapper">
                 <div class="subscription__description">
                     <h2>
                     Subcribe to our Newsletter
@@ -20,7 +20,7 @@ const Footer =()=>{
                     Get e-mail updates about our latest shops and special offers
                     </p>
                 </div>
-                <form class="subscribe-form">
+                <form className="subscribe-form">
                     <input type="email" spellcheck="false" placeholder="Your Email"/>
                     <button type="submit">
                        Subscribe
@@ -29,40 +29,52 @@ const Footer =()=>{
             </div>
         </section>
 
-<footer>
-    <div className="container-fluid">
-     <div className="row">
-<div className="col-sm-4">
-<h2 class="ftco-heading-2">Menu</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" >Shop</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#" >Journal</a></li>
-                <li><a href="#" >Contact Us</a></li>
-              </ul>
-</div>
-<div className="col-sm-4">
-<h2 class="ftco-heading-2">Menu</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" >Shop</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#" >Journal</a></li>
-                <li><a href="#" >Contact Us</a></li>
-              </ul>
-</div>
-<div className="col-sm-4">
-<h2 class="ftco-heading-2">Menu</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" >Shop</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#" >Journal</a></li>
-                <li><a href="#" >Contact Us</a></li>
-              </ul>
-</div>
-     </div>
-    </div>
-</footer>
+        <footer className="footer">
+  	 <div className="container wtt">
+  	 	<div className="row woo">
 
+  	 		<div className="footer-col">
+  	 			<h4>Vegefoods</h4>
+  	 			<ul className="vdo">
+  	 				<li><a href="#">Far far away, behind the word <br/>mountains, far from the<br/> countries Vokalia and<br/> Consonantia.
+
+</a></li>
+  	 			
+  	 			</ul>
+  	 		</div>
+            
+  	 		<div className="footer-col">
+  	 			<h4>Menu</h4>
+  	 			<ul className="vdo">
+  	 				<li><a href="#">Shop</a></li>
+  	 				<li><a href="#">About</a></li>
+  	 				<li><a href="#">Journal</a></li>
+  	 				<li><a href="#">Contact Us</a></li>
+  	 				<li><a href="#">Activities</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div className="footer-col">
+  	 			<h4>Help</h4>
+  	 			<ul className="vdo">
+  	 				<li><a href="#">Shipping Information</a></li>
+  	 				<li><a href="#">Returns & Exchange</a></li>
+  	 				<li><a href="#">Terms & Conditions</a></li>
+  	 				<li><a href="#">Privacy Policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div className="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div className="social-links">
+  	 				<a href="#"><i > <img src={s1} alt="sorry" ></img></i></a>
+  	 				<a href="#"><i ><img src={s2} alt="sorry" ></img></i></a>
+  	 				<a href="#"><i ><img src={s3} alt="sorry" /></i></a>
+  	 				<a href="#"><i ><img src={s4} alt="sorry" /></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+     <center className="vod">Copyright ©2024 All rights reserved</center>
+  </footer>
 
 
     
